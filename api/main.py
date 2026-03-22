@@ -28,7 +28,8 @@ from google.ads.googleads.errors import GoogleAdsException
 # Config
 # ---------------------------------------------------------------------------
 
-YAML_PATH = (
+YAML_PATH = os.environ.get(
+    "GOOGLE_ADS_YAML",
     "/Users/gery/Library/Application Support/Claude/local-agent-mode-sessions/"
     "99f5b8af-9a18-4bf2-8fc7-48b6c1c6d63a/5b46e3e4-a3e7-4623-ae9b-6699d3b0f0a1/"
     "local_50274263-508c-4d11-9cfc-9390d4e11bfe/outputs/google-ads-api-setup/google-ads.yaml"
@@ -216,6 +217,42 @@ def search_terms(account_id: str, days: int = 7, limit: int = 100):
         raise HTTPException(status_code=400, detail=str(ex.failure.errors[0].message))
 
     return results
+
+
+@app.get("/api/accounts/{account_id}/search-terms/analyze")
+def analyze_search_terms(account_id: str, days: int = 30, limit: int = 500):
+    """Fetch search terms from active campaigns (clicks > 0) and classify relevance for Reindeer AI."""
+    from analyze_search_terms import (
+        get_search_terms_active_campaigns,
+        get_active_campaigns,
+        classify_relevance,
+    )
+    try:
+        campaigns = get_active_campaigns(gads, account_id, days)
+        search_terms_data = get_search_terms_active_campaigns(gads, account_id, days, limit)
+        classified = classify_relevance(search_terms_data)
+
+        irrelevant = [c for c in classified if c["verdict"] == "IRRELEVANT"]
+        uncertain = [c for c in classified if c["verdict"] == "UNCERTAIN"]
+        relevant = [c for c in classified if c["verdict"] == "RELEVANT"]
+
+        return {
+            "summary": {
+                "active_campaigns": len(campaigns),
+                "total_terms": len(classified),
+                "relevant": len(relevant),
+                "irrelevant": len(irrelevant),
+                "uncertain": len(uncertain),
+                "total_cost": sum(c["cost"] for c in classified),
+                "wasted_cost": sum(c["cost"] for c in irrelevant),
+            },
+            "campaigns": campaigns,
+            "irrelevant_terms": sorted(irrelevant, key=lambda x: x["cost"], reverse=True),
+            "uncertain_terms": sorted(uncertain, key=lambda x: x["cost"], reverse=True),
+            "relevant_terms": sorted(relevant, key=lambda x: x["cost"], reverse=True),
+        }
+    except GoogleAdsException as ex:
+        raise HTTPException(status_code=400, detail=str(ex.failure.errors[0].message))
 
 
 # ---------------------------------------------------------------------------
