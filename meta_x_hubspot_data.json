@@ -1,28 +1,28 @@
 {
   "metaPeriod": "2026-03-01 to 2026-03-31",
-  "hsPeriod": "2026-04-01 to 2026-04-12",
+  "hsPeriod": "2026-03-01 to 2026-03-31",
   "totalMetaSpend": 25712.86,
-  "totalHsLeadsMatched": 85,
-  "totalHsLeadsAll": 183,
+  "totalHsLeadsMatched": 160,
+  "totalHsLeadsAll": 446,
   "hsOrphanUtms": [
     [
-      "Easyplant",
+      "prospecting_web_broad_broad_auto_UKNursery-ZZ-Ofer[25.1.26]",
       4
     ],
     [
-      "{{adset.name}}",
-      3
+      "hero",
+      2
     ],
     [
-      "test_content",
+      "HighROAS",
+      2
+    ],
+    [
+      "prospecting_web_broad_broad_auto_KfarModerationBetter[17.5.25]",
       1
     ],
     [
-      "Self_Water_Planters",
-      1
-    ],
-    [
-      "prospecting_web_broad_broad_auto_WateringSequence-Take2[7.3.26]",
+      "Brand_Houseplants",
       1
     ],
     [
@@ -30,11 +30,59 @@
       1
     ],
     [
-      "Office_Plants",
+      "easyplant.com",
       1
     ],
     [
-      "NearMe_Store",
+      "Self_Water_Houseplants",
+      1
+    ],
+    [
+      "prospecting_web_broad_broad_auto_UnwrappingSequence-Nikita[27.9.25]",
+      1
+    ],
+    [
+      "House_Plants_Exact",
+      1
+    ],
+    [
+      "prospecting_web_broad_broad_auto_PlantSpotlight-Snakeplant-OferVersion[28.2.26]",
+      1
+    ],
+    [
+      "prospecting_web_broad_broad_auto_VillaMay-ASMR-Ofer[6.9.2025]",
+      1
+    ],
+    [
+      "Easyplant",
+      1
+    ],
+    [
+      "Plant_Pet_Friendly",
+      1
+    ],
+    [
+      "prospecting_web_broad_broad_auto_Bakery-Joel[12.12.25]",
+      1
+    ],
+    [
+      "Office_Work",
+      1
+    ],
+    [
+      "Self_Water_Pot_House",
+      1
+    ],
+    [
+      "prospecting_web_broad_broad_auto_prospecting_web_broad_broad_auto_UkNursery-ZZ-Ofer-1DC[10.2.26]",
+      1
+    ],
+    [
+      "Indoor_Plants_Exact",
+      1
+    ],
+    [
+      "MidROAS",
       1
     ]
   ],
@@ -46,13 +94,15 @@
       "impressions": 216926,
       "clicks": 4911,
       "meta_b2b_form_results": 77,
-      "hs_leads_april": 16,
-      "less_than_15": 15,
-      "15-30": 1,
-      "30-100": 0,
+      "hs_leads_march": 31,
+      "less_than_15": 24,
+      "15-30": 6,
+      "30-100": 1,
       "more_than_100": 0,
-      "high_value_30_plus": 0,
-      "cpl_april_hs": 295.92
+      "high_value_30_plus": 1,
+      "cpl_march_hs": 152.73,
+      "hs_leads_april": 31,
+      "cpl_april_hs": 152.73
     },
     {
       "ad_set": "prospecting_web__lal-existing-customers-conv_b2bconv[2.3.26]",
@@ -61,13 +111,15 @@
       "impressions": 230368,
       "clicks": 4451,
       "meta_b2b_form_results": 63,
-      "hs_leads_april": 11,
-      "less_than_15": 9,
-      "15-30": 1,
+      "hs_leads_march": 25,
+      "less_than_15": 20,
+      "15-30": 4,
       "30-100": 1,
       "more_than_100": 0,
       "high_value_30_plus": 1,
-      "cpl_april_hs": 402.73
+      "cpl_march_hs": 177.2,
+      "hs_leads_april": 25,
+      "cpl_april_hs": 177.2
     },
     {
       "ad_set": "prospecting_web_lal-existing-customers-conv_b2bconv-ADV[12.3.2026]",
@@ -76,13 +128,15 @@
       "impressions": 120896,
       "clicks": 3799,
       "meta_b2b_form_results": 69,
-      "hs_leads_april": 36,
-      "less_than_15": 30,
-      "15-30": 4,
-      "30-100": 2,
-      "more_than_100": 0,
-      "high_value_30_plus": 2,
-      "cpl_april_hs": 108.11
+      "hs_leads_march": 47,
+      "less_than_15": 32,
+      "15-30": 11,
+      "30-100": 1,
+      "more_than_100": 3,
+      "high_value_30_plus": 4,
+      "cpl_march_hs": 82.81,
+      "hs_leads_april": 47,
+      "cpl_april_hs": 82.81
     },
     {
       "ad_set": "prospecting_web_lal-b2b-conv_b2bconv_UK[10.3.2026]",
@@ -91,13 +145,15 @@
       "impressions": 163103,
       "clicks": 2977,
       "meta_b2b_form_results": 30,
-      "hs_leads_april": 7,
-      "less_than_15": 5,
-      "15-30": 2,
+      "hs_leads_march": 24,
+      "less_than_15": 19,
+      "15-30": 5,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
-      "cpl_april_hs": 461.12
+      "cpl_march_hs": 134.49,
+      "hs_leads_april": 24,
+      "cpl_april_hs": 134.49
     },
     {
       "ad_set": "prospecting_web_broad_broad_auto_BusinessAngles-UK-Offices-Joel-b2bconv[5.1.26]",
@@ -106,13 +162,15 @@
       "impressions": 144485,
       "clicks": 2507,
       "meta_b2b_form_results": 20,
-      "hs_leads_april": 10,
+      "hs_leads_march": 11,
       "less_than_15": 8,
-      "15-30": 2,
+      "15-30": 3,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
-      "cpl_april_hs": 265.68
+      "cpl_march_hs": 241.53,
+      "hs_leads_april": 11,
+      "cpl_april_hs": 241.53
     },
     {
       "ad_set": "prospecting_web_broad_broad_auto_employeegift_b2bconv[28.11.25]",
@@ -121,13 +179,15 @@
       "impressions": 80172,
       "clicks": 3203,
       "meta_b2b_form_results": 21,
-      "hs_leads_april": 0,
-      "less_than_15": 0,
+      "hs_leads_march": 3,
+      "less_than_15": 3,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
-      "cpl_april_hs": null
+      "cpl_march_hs": 543.59,
+      "hs_leads_april": 3,
+      "cpl_april_hs": 543.59
     },
     {
       "ad_set": "prospecting_web_interests_auto_BusinessAngles-Offices-Joel-b2bconv[5.1.26]",
@@ -136,13 +196,15 @@
       "impressions": 84312,
       "clicks": 2352,
       "meta_b2b_form_results": 26,
-      "hs_leads_april": 0,
-      "less_than_15": 0,
+      "hs_leads_march": 4,
+      "less_than_15": 4,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
-      "cpl_april_hs": null
+      "cpl_march_hs": 406.23,
+      "hs_leads_april": 4,
+      "cpl_april_hs": 406.23
     },
     {
       "ad_set": "prospecting_web_lal-existing-customers-conv_b2bconv-RVR[23.3.26]",
@@ -151,13 +213,15 @@
       "impressions": 58166,
       "clicks": 880,
       "meta_b2b_form_results": 11,
-      "hs_leads_april": 5,
-      "less_than_15": 5,
+      "hs_leads_march": 9,
+      "less_than_15": 9,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
-      "cpl_april_hs": 255.72
+      "cpl_march_hs": 142.07,
+      "hs_leads_april": 9,
+      "cpl_april_hs": 142.07
     },
     {
       "ad_set": "prospecting_web_lal-existing-customers-conv_b2bconv-ADV_noJoel[23.3.2025]",
@@ -166,13 +230,15 @@
       "impressions": 32613,
       "clicks": 806,
       "meta_b2b_form_results": 10,
-      "hs_leads_april": 0,
-      "less_than_15": 0,
+      "hs_leads_march": 6,
+      "less_than_15": 6,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
-      "cpl_april_hs": null
+      "cpl_march_hs": 193.22,
+      "hs_leads_april": 6,
+      "cpl_april_hs": 193.22
     },
     {
       "ad_set": "prospecting_web__lal-existing-customers-conv_Bemail[4.3.26]",
@@ -181,12 +247,14 @@
       "impressions": 18721,
       "clicks": 238,
       "meta_b2b_form_results": 2,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -196,12 +264,14 @@
       "impressions": 16457,
       "clicks": 210,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -211,12 +281,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -226,12 +298,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -241,12 +315,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -256,12 +332,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -271,12 +349,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -286,12 +366,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -301,12 +383,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -316,12 +400,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -331,12 +417,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -346,12 +434,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -361,12 +451,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -376,12 +468,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -391,12 +485,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     },
     {
@@ -406,12 +502,14 @@
       "impressions": 0,
       "clicks": 0,
       "meta_b2b_form_results": 0,
-      "hs_leads_april": 0,
+      "hs_leads_march": 0,
       "less_than_15": 0,
       "15-30": 0,
       "30-100": 0,
       "more_than_100": 0,
       "high_value_30_plus": 0,
+      "cpl_march_hs": null,
+      "hs_leads_april": 0,
       "cpl_april_hs": null
     }
   ]
