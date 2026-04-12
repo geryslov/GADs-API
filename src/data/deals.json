@@ -1,0 +1,267 @@
+{
+  "period": "2026-03-01 to 2026-03-31",
+  "totalDeals": 521,
+  "totalPipeline": 548336.48,
+  "stageCounts": {
+    "Closed Lost \u2013 Unresponsive": 345,
+    "Contacted / Awaiting Response": 38,
+    "Closed Won": 69,
+    "In Discussion": 27,
+    "Payment Link Sent": 14,
+    "Proposal Sent / Negotiation": 7,
+    "Needs a proposal": 5,
+    "Closed Lost \u2013 No Interest": 8,
+    "On Hold": 7,
+    "Sample Sent": 1
+  },
+  "stageAmounts": {
+    "Closed Lost \u2013 Unresponsive": 302214.0,
+    "Contacted / Awaiting Response": 55900.0,
+    "Closed Won": 90823.0,
+    "In Discussion": 29900.0,
+    "Payment Link Sent": 19400.0,
+    "Proposal Sent / Negotiation": 7100.0,
+    "Needs a proposal": 9000.0,
+    "Closed Lost \u2013 No Interest": 16600.0,
+    "On Hold": 17400.0,
+    "Sample Sent": 0.0
+  },
+  "closedWonCount": 69,
+  "closedWonAmount": 90822.8,
+  "avgWonDeal": 1316.27,
+  "totalMetaSpend": 25712.86,
+  "matchedDealContacts": 183,
+  "utmToDealContacts": {
+    "prospecting_web_lal-existing-customers-conv_b2bconv-RVR[23.3.26]": 8,
+    "prospecting_web_lal-b2b-conv_b2bconv_UK[10.3.2026]": 25,
+    "(no utm_content)": 299,
+    "prospecting_web_lal-existing-customers-conv_b2bconv-ADV[12.3.2026]": 50,
+    "prospecting_web__lal-existing-customers-conv_b2bconv[2.3.26]": 29,
+    "prospecting_web_broad_broad_auto_BusinessAngles-UK-Offices-Joel-b2bconv[5.1.26]": 11,
+    "hero": 2,
+    "Brand_Houseplants": 1,
+    "prospecting_web_broad_broad_auto_SalVO-MentalPet-Ofer[4.10.2025]": 1,
+    "prospecting_web__lal-b2b-conv_b2bconv[24.2.26]": 37,
+    "easyplant.com": 1,
+    "prospecting_web_broad_broad_auto_UKNursery-ZZ-Ofer[25.1.26]": 4,
+    "Self_Water_Houseplants": 1,
+    "prospecting_web_lal-existing-customers-conv_b2bconv-ADV_noJoel[23.3.2025]": 6,
+    "House_Plants_Exact": 1,
+    "prospecting_web_broad_broad_auto_PlantSpotlight-Snakeplant-OferVersion[28.2.26]": 1,
+    "prospecting_web_broad_broad_auto_VillaMay-ASMR-Ofer[6.9.2025]": 1,
+    "Easyplant": 1,
+    "Plant_Pet_Friendly": 1,
+    "prospecting_web_broad_broad_auto_Bakery-Joel[12.12.25]": 1,
+    "Office_Work": 1,
+    "Self_Water_Pot_House": 1,
+    "prospecting_web_broad_broad_auto_employeegift_b2bconv[28.11.25]": 7,
+    "HighROAS": 1,
+    "prospecting_web_broad_broad_auto_prospecting_web_broad_broad_auto_UkNursery-ZZ-Ofer-1DC[10.2.26]": 1,
+    "prospecting_web_interests_auto_BusinessAngles-Offices-Joel-b2bconv[5.1.26]": 10,
+    "Indoor_Plants_Exact": 1,
+    "prospecting_web_broad_broad_auto_NYCinTLV-3plants-Ofer[17.1.26]": 1,
+    "Gifts_Mother_Day": 1
+  },
+  "adSets": [
+    {
+      "ad_set": "prospecting_web__lal-b2b-conv_b2bconv[24.2.26]",
+      "spend": 4734.71,
+      "impressions": 216926,
+      "clicks": 4911,
+      "deal_contacts": 37,
+      "cost_per_deal": 127.97
+    },
+    {
+      "ad_set": "prospecting_web__lal-existing-customers-conv_b2bconv[2.3.26]",
+      "spend": 4429.98,
+      "impressions": 230368,
+      "clicks": 4451,
+      "deal_contacts": 29,
+      "cost_per_deal": 152.76
+    },
+    {
+      "ad_set": "prospecting_web_lal-existing-customers-conv_b2bconv-ADV[12.3.2026]",
+      "spend": 3891.94,
+      "impressions": 120896,
+      "clicks": 3799,
+      "deal_contacts": 50,
+      "cost_per_deal": 77.84
+    },
+    {
+      "ad_set": "prospecting_web_lal-b2b-conv_b2bconv_UK[10.3.2026]",
+      "spend": 3227.87,
+      "impressions": 163103,
+      "clicks": 2977,
+      "deal_contacts": 25,
+      "cost_per_deal": 129.11
+    },
+    {
+      "ad_set": "prospecting_web_broad_broad_auto_BusinessAngles-UK-Offices-Joel-b2bconv[5.1.26]",
+      "spend": 2656.84,
+      "impressions": 144485,
+      "clicks": 2507,
+      "deal_contacts": 11,
+      "cost_per_deal": 241.53
+    },
+    {
+      "ad_set": "prospecting_web_broad_broad_auto_employeegift_b2bconv[28.11.25]",
+      "spend": 1630.78,
+      "impressions": 80172,
+      "clicks": 3203,
+      "deal_contacts": 7,
+      "cost_per_deal": 232.97
+    },
+    {
+      "ad_set": "prospecting_web_interests_auto_BusinessAngles-Offices-Joel-b2bconv[5.1.26]",
+      "spend": 1624.9,
+      "impressions": 84312,
+      "clicks": 2352,
+      "deal_contacts": 10,
+      "cost_per_deal": 162.49
+    },
+    {
+      "ad_set": "prospecting_web_lal-existing-customers-conv_b2bconv-RVR[23.3.26]",
+      "spend": 1278.62,
+      "impressions": 58166,
+      "clicks": 880,
+      "deal_contacts": 8,
+      "cost_per_deal": 159.83
+    },
+    {
+      "ad_set": "prospecting_web_lal-existing-customers-conv_b2bconv-ADV_noJoel[23.3.2025]",
+      "spend": 1159.3,
+      "impressions": 32613,
+      "clicks": 806,
+      "deal_contacts": 6,
+      "cost_per_deal": 193.22
+    },
+    {
+      "ad_set": "prospecting_web__lal-existing-customers-conv_Bemail[4.3.26]",
+      "spend": 654.16,
+      "impressions": 18721,
+      "clicks": 238,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web__broad-int_b2bpriority[10.3.2026]",
+      "spend": 423.76,
+      "impressions": 16457,
+      "clicks": 210,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_broad_broad_auto_BusinessAngles-Restaurants-Joel[4.9.25]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_broad_broad_auto_BusinessAngles-Offices-Joel[4.9.25]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_broad_broad_auto_BusinessAngles-RestaurantsV2-Joel[4.9.25]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_LAL-Businesses_auto_BusinessAngles-RestaurantsV2-Joel[4.9.25]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_LAL-Businesses_auto_BusinessAngles-Offices-Joel[4.9.25]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_LAL-Businesses_auto_BusinessAngles-Restaurants-Joel[4.9.25]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_broad_broad_auto_BusinessAngles-Offices-Joel-b2bconv[15.9.25]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_broad_broad_auto_BusinessAngles-Restaurants-Joel-b2bconv[15.9.25]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_broad_broad_auto_Restaurants-NewEdits[1.11.25]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_broad_broad_auto_employeeGift-nikita-b2b[30.11.25]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_broad_broad_auto_BusinessAngles-Offices-Joel-Over50b2bconv[21.11.25]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_broad_broad_auto_BusinessAngles-Offices-Joel-BusinessEmailConv[12.1.25]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_interests_broad_auto_BusineessAngles-NewGifs-b2bconv[15.2.26]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    },
+    {
+      "ad_set": "prospecting_web_interests_owner/hr_auto_RiversideB2B-Testimonials-Ofer[19.2.26]",
+      "spend": 0.0,
+      "impressions": 0,
+      "clicks": 0,
+      "deal_contacts": 0,
+      "cost_per_deal": null
+    }
+  ]
+}
