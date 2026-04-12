@@ -1,17 +1,17 @@
-utm_content,Less than 15,15-30,30-100,More than 100,Total
-(no utm_content),55,20,7,3,85
-prospecting_web_lal-existing-customers-conv_b2bconv-ADV[12.3.2026],30,4,2,0,36
-prospecting_web__lal-b2b-conv_b2bconv[24.2.26],15,1,0,0,16
-prospecting_web__lal-existing-customers-conv_b2bconv[2.3.26],9,1,1,0,11
-prospecting_web_broad_broad_auto_BusinessAngles-UK-Offices-Joel-b2bconv[5.1.26],8,2,0,0,10
-prospecting_web_lal-b2b-conv_b2bconv_UK[10.3.2026],5,2,0,0,7
-prospecting_web_lal-existing-customers-conv_b2bconv-RVR[23.3.26],5,0,0,0,5
-Easyplant,4,0,0,0,4
-{{adset.name}},2,0,0,1,3
-test_content,1,0,0,0,1
-Self_Water_Planters,1,0,0,0,1
-prospecting_web_broad_broad_auto_WateringSequence-Take2[7.3.26],1,0,0,0,1
-prospecting_web_broad_broad_auto_SalVO-MentalPet-Ofer[4.10.2025],1,0,0,0,1
-Office_Plants,1,0,0,0,1
-NearMe_Store,0,0,1,0,1
-TOTAL,138,30,11,4,183
+utm_content,Less than 15,Less than 15 %,15-30,15-30 %,30-100,30-100 %,More than 100,More than 100 %,Total,Total %
+(no utm_content),55,39.9%,20,66.7%,7,63.6%,3,75.0%,85,46.4%
+prospecting_web_lal-existing-customers-conv_b2bconv-ADV[12.3.2026],30,21.7%,4,13.3%,2,18.2%,0,0.0%,36,19.7%
+prospecting_web__lal-b2b-conv_b2bconv[24.2.26],15,10.9%,1,3.3%,0,0.0%,0,0.0%,16,8.7%
+prospecting_web__lal-existing-customers-conv_b2bconv[2.3.26],9,6.5%,1,3.3%,1,9.1%,0,0.0%,11,6.0%
+prospecting_web_broad_broad_auto_BusinessAngles-UK-Offices-Joel-b2bconv[5.1.26],8,5.8%,2,6.7%,0,0.0%,0,0.0%,10,5.5%
+prospecting_web_lal-b2b-conv_b2bconv_UK[10.3.2026],5,3.6%,2,6.7%,0,0.0%,0,0.0%,7,3.8%
+prospecting_web_lal-existing-customers-conv_b2bconv-RVR[23.3.26],5,3.6%,0,0.0%,0,0.0%,0,0.0%,5,2.7%
+Easyplant,4,2.9%,0,0.0%,0,0.0%,0,0.0%,4,2.2%
+{{adset.name}},2,1.4%,0,0.0%,0,0.0%,1,25.0%,3,1.6%
+test_content,1,0.7%,0,0.0%,0,0.0%,0,0.0%,1,0.5%
+Self_Water_Planters,1,0.7%,0,0.0%,0,0.0%,0,0.0%,1,0.5%
+prospecting_web_broad_broad_auto_WateringSequence-Take2[7.3.26],1,0.7%,0,0.0%,0,0.0%,0,0.0%,1,0.5%
+prospecting_web_broad_broad_auto_SalVO-MentalPet-Ofer[4.10.2025],1,0.7%,0,0.0%,0,0.0%,0,0.0%,1,0.5%
+Office_Plants,1,0.7%,0,0.0%,0,0.0%,0,0.0%,1,0.5%
+NearMe_Store,0,0.0%,0,0.0%,1,9.1%,0,0.0%,1,0.5%
+TOTAL,138,100.0%,30,100.0%,11,100.0%,4,100.0%,183,100.0%

@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>easyplant · HS Reports Dashboard — April 2026</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/recharts@2.12.7/umd/Recharts.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
+<style>
+  body { background: #0b1020; color: #e2e8f0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto; }
+  .card { background: #111a35; border: 1px solid #1e2a4f; border-radius: 14px; }
+  .muted { color: #94a3b8; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script id="report-data" type="application/json">
+{
+  "generatedAt": "2026-04-12",
+  "accountId": 147318014,
+  "period": "2026-04-01 to 2026-04-30",
+  "filter": "Number of plants is known; Create Date in April 2026",
+  "plantBuckets": [
+    "Less than 15",
+    "15-30",
+    "30-100",
+    "More than 100"
+  ],
+  "columnTotals": {
+    "Less than 15": 138,
+    "15-30": 30,
+    "30-100": 11,
+    "More than 100": 4
+  },
+  "grandTotal": 183,
+  "rows": [
+    {
+      "utm_content": "(no utm_content)",
+      "total": 85,
+      "totalPct": 46.4,
+      "Less than 15": 55,
+      "15-30": 20,
+      "30-100": 7,
+      "More than 100": 3,
+      "Less than 15 %": 39.9,
+      "15-30 %": 66.7,
+      "30-100 %": 63.6,
+      "More than 100 %": 75.0
+    },
+    {
+      "utm_content": "prospecting_web_lal-existing-customers-conv_b2bconv-ADV[12.3.2026]",
+      "total": 36,
+      "totalPct": 19.7,
+      "Less than 15": 30,
+      "15-30": 4,
+      "30-100": 2,
+      "More than 100": 0,
+      "Less than 15 %": 21.7,
+      "15-30 %": 13.3,
+      "30-100 %": 18.2,
+      "More than 100 %": 0.0
+    },
+    {
+      "utm_content": "prospecting_web__lal-b2b-conv_b2bconv[24.2.26]",
+      "total": 16,
+      "totalPct": 8.7,
+      "Less than 15": 15,
+      "15-30": 1,
+      "30-100": 0,
+      "More than 100": 0,
+      "Less than 15 %": 10.9,
+      "15-30 %": 3.3,
+      "30-100 %": 0.0,
+      "More than 100 %": 0.0
+    },
+    {
+      "utm_content": "prospecting_web__lal-existing-customers-conv_b2bconv[2.3.26]",
+      "total": 11,
+      "totalPct": 6.0,
+      "Less than 15": 9,
+      "15-30": 1,
+      "30-100": 1,
+      "More than 100": 0,
+      "Less than 15 %": 6.5,
+      "15-30 %": 3.3,
+      "30-100 %": 9.1,
+      "More than 100 %": 0.0
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_BusinessAngles-UK-Offices-Joel-b2bconv[5.1.26]",
+      "total": 10,
+      "totalPct": 5.5,
+      "Less than 15": 8,
+      "15-30": 2,
+      "30-100": 0,
+      "More than 100": 0,
+      "Less than 15 %": 5.8,
+      "15-30 %": 6.7,
+      "30-100 %": 0.0,
+      "More than 100 %": 0.0
+    },
+    {
+      "utm_content": "prospecting_web_lal-b2b-conv_b2bconv_UK[10.3.2026]",
+      "total": 7,
+      "totalPct": 3.8,
+      "Less than 15": 5,
+      "15-30": 2,
+      "30-100": 0,
+      "More than 100": 0,
+      "Less than 15 %": 3.6,
+      "15-30 %": 6.7,
+      "30-100 %": 0.0,
+      "More than 100 %": 0.0
+    },
+    {
+      "utm_content": "prospecting_web_lal-existing-customers-conv_b2bconv-RVR[23.3.26]",
+      "total": 5,
+      "totalPct": 2.7,
+      "Less than 15": 5,
+      "15-30": 0,
+      "30-100": 0,
+      "More than 100": 0,
+      "Less than 15 %": 3.6,
+      "15-30 %": 0.0,
+      "30-100 %": 0.0,
+      "More than 100 %": 0.0
+    },
+    {
+      "utm_content": "Easyplant",
+      "total": 4,
+      "totalPct": 2.2,
+      "Less than 15": 4,
+      "15-30": 0,
+      "30-100": 0,
+      "More than 100": 0,
+      "Less than 15 %": 2.9,
+      "15-30 %": 0.0,
+      "30-100 %": 0.0,
+      "More than 100 %": 0.0
+    },
+    {
+      "utm_content": "{{adset.name}}",
+      "total": 3,
+      "totalPct": 1.6,
+      "Less than 15": 2,
+      "15-30": 0,
+      "30-100": 0,
+      "More than 100": 1,
+      "Less than 15 %": 1.4,
+      "15-30 %": 0.0,
+      "30-100 %": 0.0,
+      "More than 100 %": 25.0
+    },
+    {
+      "utm_content": "test_content",
+      "total": 1,
+      "totalPct": 0.5,
+      "Less than 15": 1,
+      "15-30": 0,
+      "30-100": 0,
+      "More than 100": 0,
+      "Less than 15 %": 0.7,
+      "15-30 %": 0.0,
+      "30-100 %": 0.0,
+      "More than 100 %": 0.0
+    },
+    {
+      "utm_content": "Self_Water_Planters",
+      "total": 1,
+      "totalPct": 0.5,
+      "Less than 15": 1,
+      "15-30": 0,
+      "30-100": 0,
+      "More than 100": 0,
+      "Less than 15 %": 0.7,
+      "15-30 %": 0.0,
+      "30-100 %": 0.0,
+      "More than 100 %": 0.0
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_WateringSequence-Take2[7.3.26]",
+      "total": 1,
+      "totalPct": 0.5,
+      "Less than 15": 1,
+      "15-30": 0,
+      "30-100": 0,
+      "More than 100": 0,
+      "Less than 15 %": 0.7,
+      "15-30 %": 0.0,
+      "30-100 %": 0.0,
+      "More than 100 %": 0.0
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_SalVO-MentalPet-Ofer[4.10.2025]",
+      "total": 1,
+      "totalPct": 0.5,
+      "Less than 15": 1,
+      "15-30": 0,
+      "30-100": 0,
+      "More than 100": 0,
+      "Less than 15 %": 0.7,
+      "15-30 %": 0.0,
+      "30-100 %": 0.0,
+      "More than 100 %": 0.0
+    },
+    {
+      "utm_content": "Office_Plants",
+      "total": 1,
+      "totalPct": 0.5,
+      "Less than 15": 1,
+      "15-30": 0,
+      "30-100": 0,
+      "More than 100": 0,
+      "Less than 15 %": 0.7,
+      "15-30 %": 0.0,
+      "30-100 %": 0.0,
+      "More than 100 %": 0.0
+    },
+    {
+      "utm_content": "NearMe_Store",
+      "total": 1,
+      "totalPct": 0.5,
+      "Less than 15": 0,
+      "15-30": 0,
+      "30-100": 1,
+      "More than 100": 0,
+      "Less than 15 %": 0.0,
+      "15-30 %": 0.0,
+      "30-100 %": 9.1,
+      "More than 100 %": 0.0
+    }
+  ]
+}
+</script>
+
+<script type="text/babel" data-presets="react">
+const { useMemo, useState } = React;
+const {
+  ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Legend,
+  CartesianGrid, PieChart, Pie, Cell,
+} = Recharts;
+
+const DATA = JSON.parse(document.getElementById('report-data').textContent);
+
+const COLORS = ['#60a5fa', '#34d399', '#fbbf24', '#f472b6', '#a78bfa', '#f87171', '#22d3ee'];
+
+function shorten(s, n=42) {
+  if (!s) return s;
+  return s.length > n ? s.slice(0, n-1) + '…' : s;
+}
+
+function KPI({ label, value, sub }) {
+  return (
+    <div className="card p-4">
+      <div className="text-xs uppercase tracking-wider muted">{label}</div>
+      <div className="text-3xl font-semibold mt-1">{value}</div>
+      {sub ? <div className="text-sm muted mt-1">{sub}</div> : null}
+    </div>
+  );
+}
+
+function App() {
+  const buckets = DATA.plantBuckets;
+  const rows = DATA.rows;
+
+  const topRowsForChart = useMemo(
+    () => rows.slice(0, 8).map(r => ({
+      name: shorten(r.utm_content, 28),
+      full: r.utm_content,
+      ...Object.fromEntries(buckets.map(b => [b, r[b]])),
+      total: r.total,
+    })),
+    [rows, buckets]
+  );
+
+  const pieBuckets = useMemo(
+    () => buckets.map(b => ({ name: b, value: DATA.columnTotals[b] })),
+    [buckets]
+  );
+
+  const totalTracked = DATA.grandTotal - (rows.find(r => r.utm_content === '(no utm_content)')?.total || 0);
+  const noUtm = rows.find(r => r.utm_content === '(no utm_content)')?.total || 0;
+  const topCampaign = rows.find(r => r.utm_content !== '(no utm_content)');
+
+  return (
+    <div className="max-w-7xl mx-auto p-6 space-y-6">
+      <header className="flex flex-wrap items-end justify-between gap-3">
+        <div>
+          <div className="text-xs muted uppercase tracking-widest">easyplant · HubSpot report</div>
+          <h1 className="text-2xl font-semibold">Contacts with "Number of plants" — April 2026</h1>
+          <p className="text-sm muted mt-1">{DATA.filter} · Generated {DATA.generatedAt} · Account {DATA.accountId}</p>
+        </div>
+        <div className="text-xs muted">Source: HubSpot First Page Seen → utm_content</div>
+      </header>
+
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <KPI label="Total contacts" value={DATA.grandTotal} sub="April 2026" />
+        <KPI label="Tracked (has utm)" value={totalTracked} sub={`${((totalTracked/DATA.grandTotal)*100).toFixed(0)}% of total`} />
+        <KPI label="No utm_content" value={noUtm} sub={`${((noUtm/DATA.grandTotal)*100).toFixed(0)}% of total`} />
+        <KPI label="High-value (30+)" value={DATA.columnTotals['30-100'] + DATA.columnTotals['More than 100']} sub={`${DATA.columnTotals['More than 100']} in 100+`} />
+      </section>
+
+      <section className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <div className="card p-4 lg:col-span-2">
+          <h2 className="font-medium mb-2">Top 8 campaigns by contacts — stacked by plants bucket</h2>
+          <div style={{ width: '100%', height: 340 }}>
+            <ResponsiveContainer>
+              <BarChart data={topRowsForChart} margin={{ top: 8, right: 16, left: 8, bottom: 60 }}>
+                <CartesianGrid stroke="#1e2a4f" />
+                <XAxis dataKey="name" angle={-22} textAnchor="end" interval={0} stroke="#94a3b8" fontSize={11} />
+                <YAxis stroke="#94a3b8" fontSize={12} />
+                <Tooltip contentStyle={{ background: '#0b1020', border: '1px solid #1e2a4f' }}
+                         labelFormatter={(l, payload) => payload?.[0]?.payload?.full || l} />
+                <Legend />
+                {buckets.map((b, i) => (
+                  <Bar key={b} dataKey={b} stackId="a" fill={COLORS[i % COLORS.length]} />
+                ))}
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        <div className="card p-4">
+          <h2 className="font-medium mb-2">Contacts by Number of plants</h2>
+          <div style={{ width: '100%', height: 340 }}>
+            <ResponsiveContainer>
+              <PieChart>
+                <Pie data={pieBuckets} dataKey="value" nameKey="name" outerRadius={110} label>
+                  {pieBuckets.map((_, i) => <Cell key={i} fill={COLORS[i % COLORS.length]} />)}
+                </Pie>
+                <Tooltip contentStyle={{ background: '#0b1020', border: '1px solid #1e2a4f' }} />
+                <Legend />
+              </PieChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+      </section>
+
+      <section className="card p-4 overflow-x-auto">
+        <h2 className="font-medium mb-3">Pivot — utm_content × Number of plants (count and % of column)</h2>
+        <table className="min-w-full text-sm">
+          <thead>
+            <tr className="text-left muted border-b border-slate-700">
+              <th className="py-2 pr-3">utm_content</th>
+              {buckets.map(b => (
+                <th key={b} className="py-2 px-3 text-right">{b}</th>
+              ))}
+              <th className="py-2 pl-3 text-right">Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map(r => (
+              <tr key={r.utm_content} className="border-b border-slate-800 hover:bg-slate-900/60">
+                <td className="py-2 pr-3 font-mono text-xs" title={r.utm_content}>{shorten(r.utm_content, 60)}</td>
+                {buckets.map(b => (
+                  <td key={b} className="py-2 px-3 text-right">
+                    <span>{r[b]}</span>
+                    <span className="muted text-xs ml-1">({r[b + ' %']}%)</span>
+                  </td>
+                ))}
+                <td className="py-2 pl-3 text-right font-semibold">
+                  {r.total} <span className="muted text-xs">({r.totalPct}%)</span>
+                </td>
+              </tr>
+            ))}
+            <tr className="font-semibold">
+              <td className="py-2 pr-3">TOTAL</td>
+              {buckets.map(b => (
+                <td key={b} className="py-2 px-3 text-right">{DATA.columnTotals[b]} <span className="muted text-xs">(100%)</span></td>
+              ))}
+              <td className="py-2 pl-3 text-right">{DATA.grandTotal} <span className="muted text-xs">(100%)</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <footer className="text-xs muted text-center py-6">
+        easyplant · HS Reports · data pulled from HubSpot MCP
+      </footer>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>
