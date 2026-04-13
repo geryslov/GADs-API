@@ -6,6 +6,7 @@ import meta from '../../data/meta.json'
 import deals from '../../data/deals.json'
 import growth from '../../data/growth.json'
 import { BudgetCalculator } from './BudgetCalculator'
+import { MoMSection } from './MoMSection'
 
 const COLORS = ['#60a5fa', '#34d399', '#fbbf24', '#f472b6', '#a78bfa', '#f87171', '#22d3ee']
 
@@ -314,7 +315,10 @@ export function HSDashboard() {
           </div>
         </section>
 
-        {/* Section 7: Calculator */}
+        {/* Section 7: MoM */}
+        <MoMSection />
+
+        {/* Section 8: Calculator */}
         <BudgetCalculator />
 
         <footer className="text-xs text-slate-600 text-center py-6">

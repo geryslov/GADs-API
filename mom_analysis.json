@@ -1,0 +1,346 @@
+{
+  "months": [
+    "Feb",
+    "Mar",
+    "Apr"
+  ],
+  "days": {
+    "Feb": 28,
+    "Mar": 31,
+    "Apr": 12
+  },
+  "totals": {
+    "Feb": 540,
+    "Mar": 449,
+    "Apr": 183
+  },
+  "perDay": {
+    "Feb": 19.3,
+    "Mar": 14.5,
+    "Apr": 15.2
+  },
+  "plantsDistribution": {
+    "Feb": {
+      "Less than 15": 304,
+      "15-30": 64,
+      "30-100": 23,
+      "More than 100": 9
+    },
+    "Mar": {
+      "Less than 15": 339,
+      "15-30": 83,
+      "30-100": 16,
+      "More than 100": 8
+    },
+    "Apr": {
+      "Less than 15": 138,
+      "15-30": 30,
+      "30-100": 11,
+      "More than 100": 4
+    }
+  },
+  "plantsTotals": {
+    "Feb": 400,
+    "Mar": 449,
+    "Apr": 183
+  },
+  "utmByMonth": [
+    {
+      "utm_content": "(no utm_content)",
+      "Feb": 42,
+      "Mar": 135,
+      "Apr": 80,
+      "delta_MarFeb": 93,
+      "delta_AprMar": -55
+    },
+    {
+      "utm_content": "(no first_url)",
+      "Feb": 355,
+      "Mar": 129,
+      "Apr": 5,
+      "delta_MarFeb": -226,
+      "delta_AprMar": -124
+    },
+    {
+      "utm_content": "prospecting_web_lal-existing-customers-conv_b2bconv-ADV[12.3.2026]",
+      "Feb": 0,
+      "Mar": 47,
+      "Apr": 36,
+      "delta_MarFeb": 47,
+      "delta_AprMar": -11
+    },
+    {
+      "utm_content": "prospecting_web__lal-b2b-conv_b2bconv[24.2.26]",
+      "Feb": 0,
+      "Mar": 31,
+      "Apr": 16,
+      "delta_MarFeb": 31,
+      "delta_AprMar": -15
+    },
+    {
+      "utm_content": "prospecting_web__lal-existing-customers-conv_b2bconv[2.3.26]",
+      "Feb": 0,
+      "Mar": 25,
+      "Apr": 11,
+      "delta_MarFeb": 25,
+      "delta_AprMar": -14
+    },
+    {
+      "utm_content": "prospecting_web_lal-b2b-conv_b2bconv_UK[10.3.2026]",
+      "Feb": 0,
+      "Mar": 24,
+      "Apr": 7,
+      "delta_MarFeb": 24,
+      "delta_AprMar": -17
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_BusinessAngles-UK-Offices-Joel-b2bconv[5.1.26]",
+      "Feb": 1,
+      "Mar": 11,
+      "Apr": 10,
+      "delta_MarFeb": 10,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "prospecting_web_lal-existing-customers-conv_b2bconv-RVR[23.3.26]",
+      "Feb": 0,
+      "Mar": 9,
+      "Apr": 5,
+      "delta_MarFeb": 9,
+      "delta_AprMar": -4
+    },
+    {
+      "utm_content": "prospecting_web_lal-existing-customers-conv_b2bconv-ADV_noJoel[23.3.2025]",
+      "Feb": 0,
+      "Mar": 6,
+      "Apr": 0,
+      "delta_MarFeb": 6,
+      "delta_AprMar": -6
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_UKNursery-ZZ-Ofer[25.1.26]",
+      "Feb": 0,
+      "Mar": 4,
+      "Apr": 0,
+      "delta_MarFeb": 4,
+      "delta_AprMar": -4
+    },
+    {
+      "utm_content": "prospecting_web_interests_auto_BusinessAngles-Offices-Joel-b2bconv[5.1.26]",
+      "Feb": 1,
+      "Mar": 4,
+      "Apr": 0,
+      "delta_MarFeb": 3,
+      "delta_AprMar": -4
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_employeegift_b2bconv[28.11.25]",
+      "Feb": 0,
+      "Mar": 3,
+      "Apr": 0,
+      "delta_MarFeb": 3,
+      "delta_AprMar": -3
+    },
+    {
+      "utm_content": "HighROAS",
+      "Feb": 0,
+      "Mar": 2,
+      "Apr": 0,
+      "delta_MarFeb": 2,
+      "delta_AprMar": -2
+    },
+    {
+      "utm_content": "hero",
+      "Feb": 0,
+      "Mar": 2,
+      "Apr": 0,
+      "delta_MarFeb": 2,
+      "delta_AprMar": -2
+    },
+    {
+      "utm_content": "Self_Water_Pot_House",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "Self_Water_Houseplants",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "Office_Work",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "easyplant.com",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "MidROAS",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_VillaMay-ASMR-Ofer[6.9.2025]",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_SalVO-MentalPet-Ofer[4.10.2025]",
+      "Feb": 1,
+      "Mar": 1,
+      "Apr": 1,
+      "delta_MarFeb": 0,
+      "delta_AprMar": 0
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_PlantSpotlight-Snakeplant-OferVersion[28.2.26]",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "Brand_Houseplants",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_KfarModerationBetter[17.5.25]",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "House_Plants_Exact",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "Easyplant",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 4,
+      "delta_MarFeb": 1,
+      "delta_AprMar": 3
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_UnwrappingSequence-Nikita[27.9.25]",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "Indoor_Plants_Exact",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_prospecting_web_broad_broad_auto_UkNursery-ZZ-Ofer-1DC[10.2.26]",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_Bakery-Joel[12.12.25]",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "Plant_Pet_Friendly",
+      "Feb": 0,
+      "Mar": 1,
+      "Apr": 0,
+      "delta_MarFeb": 1,
+      "delta_AprMar": -1
+    },
+    {
+      "utm_content": "NearMe_Store",
+      "Feb": 0,
+      "Mar": 0,
+      "Apr": 1,
+      "delta_MarFeb": 0,
+      "delta_AprMar": 1
+    },
+    {
+      "utm_content": "{{adset.name}}",
+      "Feb": 0,
+      "Mar": 0,
+      "Apr": 3,
+      "delta_MarFeb": 0,
+      "delta_AprMar": 3
+    },
+    {
+      "utm_content": "test_content",
+      "Feb": 0,
+      "Mar": 0,
+      "Apr": 1,
+      "delta_MarFeb": 0,
+      "delta_AprMar": 1
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_WateringSequence-Take2[7.3.26]",
+      "Feb": 0,
+      "Mar": 0,
+      "Apr": 1,
+      "delta_MarFeb": 0,
+      "delta_AprMar": 1
+    },
+    {
+      "utm_content": "Self_Water_Planters",
+      "Feb": 0,
+      "Mar": 0,
+      "Apr": 1,
+      "delta_MarFeb": 0,
+      "delta_AprMar": 1
+    },
+    {
+      "utm_content": "Office_Plants",
+      "Feb": 0,
+      "Mar": 0,
+      "Apr": 1,
+      "delta_MarFeb": 0,
+      "delta_AprMar": 1
+    }
+  ],
+  "note": "Feb utm_content from 400 of 540 sampled contacts (page 3 of 140 not enriched with first_url); Apr is partial through 4/12."
+}
