@@ -1,0 +1,180 @@
+{
+  "comparison": "Mar 1-12 vs Apr 1-12 (12 days each, apples-to-apples)",
+  "periods": {
+    "March": {
+      "start": "2026-03-01",
+      "end": "2026-03-12",
+      "days": 12,
+      "contacts": 135
+    },
+    "April": {
+      "start": "2026-04-01",
+      "end": "2026-04-12",
+      "days": 12,
+      "contacts": 183
+    }
+  },
+  "totalDelta": 48,
+  "totalDeltaPct": 35.6,
+  "plants": {
+    "Less than 15": {
+      "mar": 98,
+      "mar_pct": 72.6,
+      "apr": 138,
+      "apr_pct": 75.4
+    },
+    "15-30": {
+      "mar": 25,
+      "mar_pct": 18.5,
+      "apr": 30,
+      "apr_pct": 16.4
+    },
+    "30-100": {
+      "mar": 7,
+      "mar_pct": 5.2,
+      "apr": 11,
+      "apr_pct": 6.0
+    },
+    "More than 100": {
+      "mar": 4,
+      "mar_pct": 3.0,
+      "apr": 4,
+      "apr_pct": 2.2
+    }
+  },
+  "utms": [
+    {
+      "utm_content": "(no first_url)",
+      "mar": 104,
+      "apr": 5,
+      "delta": -99,
+      "delta_pct": -95.2
+    },
+    {
+      "utm_content": "(no utm_content)",
+      "mar": 24,
+      "apr": 80,
+      "delta": 56,
+      "delta_pct": 233.3
+    },
+    {
+      "utm_content": "prospecting_web_lal-existing-customers-conv_b2bconv-ADV[12.3.2026]",
+      "mar": 0,
+      "apr": 36,
+      "delta": 36,
+      "delta_pct": null
+    },
+    {
+      "utm_content": "prospecting_web__lal-b2b-conv_b2bconv[24.2.26]",
+      "mar": 2,
+      "apr": 16,
+      "delta": 14,
+      "delta_pct": 700.0
+    },
+    {
+      "utm_content": "prospecting_web__lal-existing-customers-conv_b2bconv[2.3.26]",
+      "mar": 0,
+      "apr": 11,
+      "delta": 11,
+      "delta_pct": null
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_BusinessAngles-UK-Offices-Joel-b2bconv[5.1.26]",
+      "mar": 0,
+      "apr": 10,
+      "delta": 10,
+      "delta_pct": null
+    },
+    {
+      "utm_content": "prospecting_web_lal-b2b-conv_b2bconv_UK[10.3.2026]",
+      "mar": 2,
+      "apr": 7,
+      "delta": 5,
+      "delta_pct": 250.0
+    },
+    {
+      "utm_content": "prospecting_web_lal-existing-customers-conv_b2bconv-RVR[23.3.26]",
+      "mar": 0,
+      "apr": 5,
+      "delta": 5,
+      "delta_pct": null
+    },
+    {
+      "utm_content": "Easyplant",
+      "mar": 0,
+      "apr": 4,
+      "delta": 4,
+      "delta_pct": null
+    },
+    {
+      "utm_content": "{{adset.name}}",
+      "mar": 0,
+      "apr": 3,
+      "delta": 3,
+      "delta_pct": null
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_SalVO-MentalPet-Ofer[4.10.2025]",
+      "mar": 0,
+      "apr": 1,
+      "delta": 1,
+      "delta_pct": null
+    },
+    {
+      "utm_content": "Self_Water_Planters",
+      "mar": 0,
+      "apr": 1,
+      "delta": 1,
+      "delta_pct": null
+    },
+    {
+      "utm_content": "prospecting_web_interests_auto_BusinessAngles-Offices-Joel-b2bconv[5.1.26]",
+      "mar": 1,
+      "apr": 0,
+      "delta": -1,
+      "delta_pct": -100.0
+    },
+    {
+      "utm_content": "Office_Plants",
+      "mar": 0,
+      "apr": 1,
+      "delta": 1,
+      "delta_pct": null
+    },
+    {
+      "utm_content": "test_content",
+      "mar": 0,
+      "apr": 1,
+      "delta": 1,
+      "delta_pct": null
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_WateringSequence-Take2[7.3.26]",
+      "mar": 0,
+      "apr": 1,
+      "delta": 1,
+      "delta_pct": null
+    },
+    {
+      "utm_content": "prospecting_web_broad_broad_auto_employeegift_b2bconv[28.11.25]",
+      "mar": 1,
+      "apr": 0,
+      "delta": -1,
+      "delta_pct": -100.0
+    },
+    {
+      "utm_content": "MidROAS",
+      "mar": 1,
+      "apr": 0,
+      "delta": -1,
+      "delta_pct": -100.0
+    },
+    {
+      "utm_content": "NearMe_Store",
+      "mar": 0,
+      "apr": 1,
+      "delta": 1,
+      "delta_pct": null
+    }
+  ]
+}

@@ -7,6 +7,7 @@ import deals from '../../data/deals.json'
 import growth from '../../data/growth.json'
 import { BudgetCalculator } from './BudgetCalculator'
 import { MoMSection } from './MoMSection'
+import { AprVsMarSection } from './AprVsMarSection'
 
 const COLORS = ['#60a5fa', '#34d399', '#fbbf24', '#f472b6', '#a78bfa', '#f87171', '#22d3ee']
 
@@ -315,7 +316,10 @@ export function HSDashboard() {
           </div>
         </section>
 
-        {/* Section 7: MoM */}
+        {/* Section 7a: April vs March (apples-to-apples) */}
+        <AprVsMarSection />
+
+        {/* Section 7b: Feb/Mar/Apr trend */}
         <MoMSection />
 
         {/* Section 8: Calculator */}
