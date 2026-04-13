@@ -1,0 +1,188 @@
+{
+  "total_responders_estimated": 325,
+  "sample_analyzed": 200,
+  "call_answered_total": 158,
+  "email_replied_also_call_answered": 32,
+  "key_metrics": {
+    "customer_rate_responders_pct": 38.0,
+    "customer_rate_baseline_pct": 12.4,
+    "customer_rate_multiplier": 3.06,
+    "with_phone_responders_pct": 70.0,
+    "with_phone_baseline_pct": 71.5
+  },
+  "sources": [
+    {
+      "source": "OFFLINE",
+      "count": 120,
+      "pct": 60.0
+    },
+    {
+      "source": "OTHER_CAMPAIGNS",
+      "count": 29,
+      "pct": 14.5
+    },
+    {
+      "source": "DIRECT_TRAFFIC",
+      "count": 23,
+      "pct": 11.5
+    },
+    {
+      "source": "ORGANIC_SEARCH",
+      "count": 11,
+      "pct": 5.5
+    },
+    {
+      "source": "EMAIL_MARKETING",
+      "count": 7,
+      "pct": 3.5
+    },
+    {
+      "source": "PAID_SEARCH",
+      "count": 6,
+      "pct": 3.0
+    },
+    {
+      "source": "SOCIAL_MEDIA",
+      "count": 3,
+      "pct": 1.5
+    },
+    {
+      "source": "PAID_SOCIAL",
+      "count": 1,
+      "pct": 0.5
+    }
+  ],
+  "plants_comparison": [
+    {
+      "bucket": "Less than 15",
+      "responders_pct": 56.0,
+      "baseline_pct": 75,
+      "lift_pct_points": -19.0
+    },
+    {
+      "bucket": "15-30",
+      "responders_pct": 28.0,
+      "baseline_pct": 17,
+      "lift_pct_points": 11.0
+    },
+    {
+      "bucket": "30-100",
+      "responders_pct": 11.5,
+      "baseline_pct": 5,
+      "lift_pct_points": 6.5
+    },
+    {
+      "bucket": "More than 100",
+      "responders_pct": 4.5,
+      "baseline_pct": 2,
+      "lift_pct_points": 2.5
+    }
+  ],
+  "lifecycle": [
+    {
+      "stage": "opportunity",
+      "count": 124,
+      "pct": 62.0
+    },
+    {
+      "stage": "customer",
+      "count": 76,
+      "pct": 38.0
+    }
+  ],
+  "top_states": [
+    {
+      "state": "New York",
+      "count": 12
+    },
+    {
+      "state": "California",
+      "count": 10
+    },
+    {
+      "state": "Texas",
+      "count": 7
+    },
+    {
+      "state": "Florida",
+      "count": 7
+    },
+    {
+      "state": "Georgia",
+      "count": 7
+    },
+    {
+      "state": "Illinois",
+      "count": 5
+    },
+    {
+      "state": "England",
+      "count": 4
+    },
+    {
+      "state": "Missouri",
+      "count": 4
+    }
+  ],
+  "job_role_keywords": [
+    {
+      "keyword": "director",
+      "count": 25,
+      "pct": 12.5
+    },
+    {
+      "keyword": "manager",
+      "count": 19,
+      "pct": 9.5
+    },
+    {
+      "keyword": "office",
+      "count": 15,
+      "pct": 7.5
+    },
+    {
+      "keyword": "assistant",
+      "count": 10,
+      "pct": 5.0
+    },
+    {
+      "keyword": "operations",
+      "count": 8,
+      "pct": 4.0
+    },
+    {
+      "keyword": "owner",
+      "count": 7,
+      "pct": 3.5
+    },
+    {
+      "keyword": "chief executive",
+      "count": 6,
+      "pct": 3.0
+    },
+    {
+      "keyword": "founder",
+      "count": 5,
+      "pct": 2.5
+    },
+    {
+      "keyword": "human resources",
+      "count": 4,
+      "pct": 2.0
+    },
+    {
+      "keyword": "president",
+      "count": 3,
+      "pct": 1.5
+    }
+  ],
+  "conclusions": [
+    "3x higher customer rate: 38% of responders become customers vs 12.4% baseline win rate. Once a contact engages, they convert.",
+    "Offline / inbound is 60% of responders, far above its share of total lead volume. Meeting-booked leads are the highest-converting channel.",
+    "Plant quality shifts UP: 15-30, 30-100, and More-than-100 buckets are all over-indexed in responders vs baseline. Bigger buyers respond more.",
+    "Decision-makers dominate: 25% directors/managers, 5.5% C-suite (founder/CEO/president/VP), 7.5% office/operations roles. B2B buyers with authority.",
+    "Phone presence is NOT the differentiator: 70% of responders have phone, nearly identical to the 71.5% baseline. Phone matters for HOW you reach them, not WHETHER they engage.",
+    "Geographic concentration: NY, CA, TX, FL, GA, IL, PA, MI are the top US states. US is 45% of responders (with 50% uncoded country - likely also US).",
+    "Repeat-buyer signal: 6.5% of responders have multiple deals, up to 9 deals for one contact. Worth identifying these as referenceable customers."
+  ]
+}
