@@ -1,0 +1,61 @@
+{
+  "period": "2026-01-01 to 2026-04-12",
+  "filter": "Contacts with Number of plants known, created YTD",
+  "segments": {
+    "total": {
+      "n": 1810,
+      "label": "All YTD contacts"
+    },
+    "has_phone": {
+      "n": 1294,
+      "pct_of_total": 71.5,
+      "label": "With phone number"
+    },
+    "no_phone": {
+      "n": 516,
+      "pct_of_total": 28.5,
+      "label": "Without phone number"
+    }
+  },
+  "email_replies": {
+    "has_phone": {
+      "replied": 257,
+      "total": 1294,
+      "rate_pct": 19.86
+    },
+    "no_phone": {
+      "replied": 68,
+      "total": 516,
+      "rate_pct": 13.18
+    },
+    "overall": {
+      "replied": 325,
+      "total": 1810,
+      "rate_pct": 17.96
+    }
+  },
+  "calls": {
+    "total_attempted_ytd": 1597,
+    "total_answered_ytd": 305,
+    "call_answer_rate_pct": 19.1,
+    "note": "Answered = Connected | Meeting scheduled | Left live message"
+  },
+  "answered_call_contacts": {
+    "has_phone": {
+      "contacts_with_answered_call": 158,
+      "total": 1294,
+      "rate_pct": 12.21
+    },
+    "no_phone": {
+      "contacts_with_answered_call": 0,
+      "total": 516,
+      "rate_pct": 0.0
+    }
+  },
+  "summary_notes": [
+    "Contacts with a phone number are 1.5x more likely to reply to a sales email (19.9% vs 13.2%) than those without.",
+    "Zero contacts without a phone number received an answered call (as expected - you cannot call someone you do not have a number for).",
+    "Overall YTD call answer rate across 1,597 attempts was 19.1%, reaching 158 unique contacts (12.2% of phone-having cohort).",
+    "Segment size: 71.5% of YTD contacts have a phone; 28.5% do not."
+  ]
+}

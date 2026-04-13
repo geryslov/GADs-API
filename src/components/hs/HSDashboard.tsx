@@ -8,6 +8,7 @@ import growth from '../../data/growth.json'
 import { BudgetCalculator } from './BudgetCalculator'
 import { MoMSection } from './MoMSection'
 import { AprVsMarSection } from './AprVsMarSection'
+import { ResponseRatesSection } from './ResponseRatesSection'
 
 const COLORS = ['#60a5fa', '#34d399', '#fbbf24', '#f472b6', '#a78bfa', '#f87171', '#22d3ee']
 
@@ -318,6 +319,9 @@ export function HSDashboard() {
 
         {/* Section 7a: April vs March (apples-to-apples) */}
         <AprVsMarSection />
+
+        {/* Section 7aa: Response rates by phone */}
+        <ResponseRatesSection />
 
         {/* Section 7b: Feb/Mar/Apr trend */}
         <MoMSection />
