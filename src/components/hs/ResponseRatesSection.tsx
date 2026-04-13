@@ -1,4 +1,4 @@
-import { Phone, PhoneOff, Mail, TrendingUp } from 'lucide-react'
+import { Phone, PhoneOff, Mail, TrendingUp, Award } from 'lucide-react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 import data from '../../data/response_rates.json'
 
@@ -24,16 +24,21 @@ export function ResponseRatesSection() {
   const callNp = data.answered_call_contacts.no_phone
   const calls = data.calls
 
+  const dealsHp = data.deals.has_phone
+  const dealsNp = data.deals.no_phone
+
   const chartData = [
     {
       segment: `Has phone (${hp.n.toLocaleString()})`,
       'Email reply rate': emailHp.rate_pct,
       'Call-answered rate': callHp.rate_pct,
+      'Closed-Won rate': dealsHp.rate_pct,
     },
     {
       segment: `No phone (${np.n.toLocaleString()})`,
       'Email reply rate': emailNp.rate_pct,
       'Call-answered rate': callNp.rate_pct,
+      'Closed-Won rate': dealsNp.rate_pct,
     },
   ]
 
@@ -62,16 +67,21 @@ export function ResponseRatesSection() {
             <Phone size={16} className="text-green-400" />
             <h3 className="font-semibold text-slate-300">With phone number ({hp.n.toLocaleString()})</h3>
           </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-3 gap-3">
             <div>
-              <div className="text-[10px] uppercase tracking-wider text-slate-500 flex items-center gap-1"><Mail size={10} /> Email replies</div>
-              <div className="text-3xl font-semibold font-mono text-white">{emailHp.rate_pct}%</div>
-              <div className="text-xs text-slate-500">{emailHp.replied} of {emailHp.total}</div>
+              <div className="text-[10px] uppercase tracking-wider text-slate-500 flex items-center gap-1"><Mail size={10} /> Email reply</div>
+              <div className="text-2xl font-semibold font-mono text-white">{emailHp.rate_pct}%</div>
+              <div className="text-xs text-slate-500">{emailHp.replied} / {emailHp.total}</div>
             </div>
             <div>
               <div className="text-[10px] uppercase tracking-wider text-slate-500 flex items-center gap-1"><Phone size={10} /> Call answered</div>
-              <div className="text-3xl font-semibold font-mono text-white">{callHp.rate_pct}%</div>
-              <div className="text-xs text-slate-500">{callHp.contacts_with_answered_call} of {callHp.total}</div>
+              <div className="text-2xl font-semibold font-mono text-white">{callHp.rate_pct}%</div>
+              <div className="text-xs text-slate-500">{callHp.contacts_with_answered_call} / {callHp.total}</div>
+            </div>
+            <div>
+              <div className="text-[10px] uppercase tracking-wider text-slate-500 flex items-center gap-1"><Award size={10} /> Closed Won</div>
+              <div className="text-2xl font-semibold font-mono text-green-400">{dealsHp.rate_pct}%</div>
+              <div className="text-xs text-slate-500">{dealsHp.with_closed_won} / {dealsHp.total}</div>
             </div>
           </div>
         </div>
@@ -80,16 +90,21 @@ export function ResponseRatesSection() {
             <PhoneOff size={16} className="text-orange-400" />
             <h3 className="font-semibold text-slate-300">Without phone number ({np.n.toLocaleString()})</h3>
           </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-3 gap-3">
             <div>
-              <div className="text-[10px] uppercase tracking-wider text-slate-500 flex items-center gap-1"><Mail size={10} /> Email replies</div>
-              <div className="text-3xl font-semibold font-mono text-white">{emailNp.rate_pct}%</div>
-              <div className="text-xs text-slate-500">{emailNp.replied} of {emailNp.total}</div>
+              <div className="text-[10px] uppercase tracking-wider text-slate-500 flex items-center gap-1"><Mail size={10} /> Email reply</div>
+              <div className="text-2xl font-semibold font-mono text-white">{emailNp.rate_pct}%</div>
+              <div className="text-xs text-slate-500">{emailNp.replied} / {emailNp.total}</div>
             </div>
             <div>
               <div className="text-[10px] uppercase tracking-wider text-slate-500 flex items-center gap-1"><Phone size={10} /> Call answered</div>
-              <div className="text-3xl font-semibold font-mono text-white">{callNp.rate_pct}%</div>
-              <div className="text-xs text-slate-500">{callNp.contacts_with_answered_call} of {callNp.total} · cannot call without a number</div>
+              <div className="text-2xl font-semibold font-mono text-white">{callNp.rate_pct}%</div>
+              <div className="text-xs text-slate-500">{callNp.contacts_with_answered_call} / {callNp.total}</div>
+            </div>
+            <div>
+              <div className="text-[10px] uppercase tracking-wider text-slate-500 flex items-center gap-1"><Award size={10} /> Closed Won</div>
+              <div className="text-2xl font-semibold font-mono text-orange-400">{dealsNp.rate_pct}%</div>
+              <div className="text-xs text-slate-500">{dealsNp.with_closed_won} / {dealsNp.total}</div>
             </div>
           </div>
         </div>
@@ -107,6 +122,7 @@ export function ResponseRatesSection() {
               <Legend />
               <Bar dataKey="Email reply rate" fill="#60a5fa" />
               <Bar dataKey="Call-answered rate" fill="#34d399" />
+              <Bar dataKey="Closed-Won rate" fill="#fbbf24" />
             </BarChart>
           </ResponsiveContainer>
         </div>
@@ -115,6 +131,12 @@ export function ResponseRatesSection() {
       <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-4 text-sm">
         <div className="font-semibold mb-2 text-slate-300">Takeaways</div>
         <ul className="list-disc list-inside space-y-1 text-slate-400 text-xs">
+          <li>
+            <span className="font-semibold text-slate-300">Closed-Won rate is 2.5× higher for phone cohort.</span>{' '}
+            <span className="text-green-400 font-semibold">{dealsHp.rate_pct}%</span> of phone-having contacts
+            become Closed Won vs <span className="text-slate-300">{dealsNp.rate_pct}%</span> without.
+            That's {dealsHp.with_closed_won} vs {dealsNp.with_closed_won} actual wins.
+          </li>
           <li>
             Phone-having contacts reply to sales emails at <span className="text-green-400 font-semibold">{emailHp.rate_pct}%</span> —
             <span className="text-green-400 font-semibold"> 1.5×</span> the rate of those without a phone (<span className="text-slate-300">{emailNp.rate_pct}%</span>).
@@ -126,9 +148,11 @@ export function ResponseRatesSection() {
           </li>
           <li>
             <span className="text-orange-400 font-semibold">0</span> contacts without a phone received an answered call — they're email-only by definition.
+            Yet 4% of them still close — all via email/inbound only. That's a free channel worth keeping nurture active on.
           </li>
           <li>
-            Implication: asking for phone on the form is a meaningful qualifier. The no-phone cohort still replies via email at {emailNp.rate_pct}%, so don't drop them — but don't spend call effort there.
+            Implication: asking for phone on the form is the single most impactful lead qualifier.
+            Consider making phone required on the highest-intent forms; keep it optional on lower-intent lead magnets to avoid form friction.
           </li>
         </ul>
       </div>

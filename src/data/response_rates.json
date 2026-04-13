@@ -57,5 +57,33 @@
     "Zero contacts without a phone number received an answered call (as expected - you cannot call someone you do not have a number for).",
     "Overall YTD call answer rate across 1,597 attempts was 19.1%, reaching 158 unique contacts (12.2% of phone-having cohort).",
     "Segment size: 71.5% of YTD contacts have a phone; 28.5% do not."
-  ]
+  ],
+  "deals": {
+    "closed_won_deals_ytd": 225,
+    "has_phone": {
+      "with_closed_won": 133,
+      "total": 1294,
+      "rate_pct": 10.28
+    },
+    "no_phone": {
+      "with_closed_won": 21,
+      "total": 516,
+      "rate_pct": 4.07
+    },
+    "gap_multiplier": 2.53,
+    "note": "Closed Won = dealstage 3920527564. YTD created."
+  },
+  "contacts_with_any_deal": {
+    "has_phone": {
+      "n": 1291,
+      "total": 1294,
+      "rate_pct": 99.77,
+      "note": "HubSpot auto-creates a deal on every form submit"
+    },
+    "no_phone": {
+      "n": 516,
+      "total": 516,
+      "rate_pct": 100.0
+    }
+  }
 }
