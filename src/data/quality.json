@@ -1,0 +1,121 @@
+{
+  "cw_sample_size": 100,
+  "cw_total_ytd": 225,
+  "ytd_contacts_total": 1810,
+  "overall": {
+    "mean_won": 1477,
+    "median_won": 1267,
+    "max_won": 9000,
+    "min_won": 100,
+    "sum_sample": 147685
+  },
+  "plants_quality": [
+    {
+      "bucket": "Less than 15",
+      "leads_ytd": 1395,
+      "estimated_wins": 130,
+      "win_rate_pct": 9.3,
+      "avg_won_amount": 961,
+      "expected_value_per_lead": 89.56
+    },
+    {
+      "bucket": "15-30",
+      "leads_ytd": 290,
+      "estimated_wins": 54,
+      "win_rate_pct": 18.6,
+      "avg_won_amount": 1713,
+      "expected_value_per_lead": 318.97
+    },
+    {
+      "bucket": "30-100",
+      "leads_ytd": 90,
+      "estimated_wins": 22,
+      "win_rate_pct": 24.4,
+      "avg_won_amount": 3363,
+      "expected_value_per_lead": 822.07
+    },
+    {
+      "bucket": "More than 100",
+      "leads_ytd": 35,
+      "estimated_wins": 4,
+      "win_rate_pct": 11.4,
+      "avg_won_amount": 8543,
+      "expected_value_per_lead": 976.34
+    }
+  ],
+  "project_type_quality": [
+    {
+      "project_type": "Stores/Restaurants/Caf\u00e9s",
+      "cw_count_sample": 4,
+      "cw_share_pct": 4.0,
+      "mean_amount": 2141,
+      "median_amount": 1581
+    },
+    {
+      "project_type": "Employee/Customer Gifting",
+      "cw_count_sample": 26,
+      "cw_share_pct": 26.0,
+      "mean_amount": 1652,
+      "median_amount": 1000
+    },
+    {
+      "project_type": "Office Design",
+      "cw_count_sample": 45,
+      "cw_share_pct": 45.0,
+      "mean_amount": 1613,
+      "median_amount": 1400
+    },
+    {
+      "project_type": "Hospitality",
+      "cw_count_sample": 2,
+      "cw_share_pct": 2.0,
+      "mean_amount": 1394,
+      "median_amount": 1394
+    },
+    {
+      "project_type": "Healthcare/Gyms/Studios",
+      "cw_count_sample": 6,
+      "cw_share_pct": 6.0,
+      "mean_amount": 1244,
+      "median_amount": 1400
+    },
+    {
+      "project_type": "Education",
+      "cw_count_sample": 1,
+      "cw_share_pct": 1.0,
+      "mean_amount": 1700,
+      "median_amount": 1700
+    },
+    {
+      "project_type": "Other",
+      "cw_count_sample": 9,
+      "cw_share_pct": 9.0,
+      "mean_amount": 794,
+      "median_amount": 500
+    },
+    {
+      "project_type": "Designers for Clients",
+      "cw_count_sample": 4,
+      "cw_share_pct": 4.0,
+      "mean_amount": 531,
+      "median_amount": 494
+    },
+    {
+      "project_type": "(not set)",
+      "cw_count_sample": 3,
+      "cw_share_pct": 3.0,
+      "mean_amount": 786,
+      "median_amount": 956
+    }
+  ],
+  "key_insights": [
+    "Average Closed Won deal is $1,477 (median $1,267). Min $100, max $9,000.",
+    "9x revenue gap between smallest and largest plant buckets: $961 (Less than 15) vs $8,543 (More than 100).",
+    "Expected Value per lead ranges from $86 (Less than 15) to ~$1,200 (More than 100) - a 14x spread that should drive lead routing.",
+    "Office Design drives 45% of Closed Won volume at $1,613 avg - the workhorse segment.",
+    "Employee/Customer Gifting is 26% of volume but has the highest individual deal ($9,000 / More than 100 plants) - good for hunting larger corporate accounts.",
+    "Stores/Restaurants/Caf\u00e9s has the highest AVG deal size ($2,141) but only 4% of volume - worth dedicated targeting.",
+    "Designers for Clients has the LOWEST avg deal ($531) - small one-off orders. Either productize this flow or de-prioritize.",
+    "Hospitality (hotels) has few deals (2%) but the largest public lead ($5,000+ hospital deal). Pursue with dedicated AE."
+  ]
+}
